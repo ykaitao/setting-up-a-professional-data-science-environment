@@ -20,9 +20,20 @@ The repository helps Data Science beginners to easily get started. It covers the
 
 [Git](https://git-scm.com/) is a free and open source distributed **version control system**, tech teams must use it for collaborative working.
 
-[GitHub](https://github.com/) is an online platform which provides hosting for software development and version control using Git. Alternatives: Bickbucket
+[GitHub](https://github.com/) is an online platform which provides hosting for software development and version control using Git. Alternatives: Bickbucket, GitLab.
 
 ## Setup tools
+[Visual Studio Code](https://code.visualstudio.com/docs) can be setup by following this documents: [Windows](https://code.visualstudio.com/docs/setup/windows), [macOS](https://code.visualstudio.com/docs/setup/mac), [Linux](https://code.visualstudio.com/docs/setup/linux). 
+
+[Anaconda](https://www.anaconda.com/) can be setup by following this [documents](https://www.anaconda.com/products/individual). 
+
+[Jupyter Notebook](https://jupyter.org/) does not need to be setup separately, it comes with Anaconda.
+
+[Virtual Environment](https://docs.python.org/3/library/venv.html#:~:text=A%20virtual%20environment%20is%20a,part%20of%20your%20operating%20system.) does not need to be setup separately, it comes with Anaconda.
+
+[Git](https://git-scm.com/) can be setup by following this [documents](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+[GitHub](https://github.com/) can be setup by following this [documents](TO-DO).
 
 ## Use tools effectively
 
