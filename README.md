@@ -1,10 +1,10 @@
 # Setting-up-a-professional-data-science-environment
 The repository helps Data Science beginners to easily get started. It covers the following topics:
 
-- [Essential tools used by professional Data Scientists](#heading)
-- [Setup tools](#heading-1)
-- [Use tools effectively](#heading-2)
-- [Good coding habits](#heading-3)
+- [Essential tools used by professional Data Scientists](#essential-tools-used-by-professional-data-scientists)
+- [Setup tools](#setup-tools)
+- [Use tools effectively](#use-tools-effectively)
+- [Good coding habits](#good-coding-habits)
 
 
 ## Essential tools used by professional Data Scientists
