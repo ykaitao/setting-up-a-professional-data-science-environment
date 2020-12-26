@@ -1,2 +1,6 @@
-# setting-up-a-professional-data-science-environment
-The repository helps Data Science beginners by providing them [1] what are the essential tools for a professional Data Scientist (e.g., vs-code, Jupyter, Anaconda, Git, GitHub, virtual environment); [2] how to setup these tools; [3] how to use these tools effectively. 
+# Setting-up-a-professional-data-science-environment
+The repository helps Data Science beginners by answering the following questions:
+* what are the essential tools (e.g., vs-code, Jupyter, Anaconda, Git, GitHub, virtual environment) used by a professional Data Scientist; 
+* how to setup these tools; 
+* how to use these tools effectively;
+* what are the good coding habits.
