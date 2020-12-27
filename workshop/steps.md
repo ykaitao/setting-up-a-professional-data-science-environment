@@ -1,5 +1,5 @@
 # Target audience
-> All those who want to easily get started, and become professional in Data Science (e.g., students, new grads).
+> All those who want to easily get started, and become professional in Data Science (e.g., students, new grads, or those who want to switch to Data Science from other domain).
 
 # Requirements:
 > Participants must bring their own laptops.
@@ -57,9 +57,32 @@ Help participants in the following topics:
     conda info --envs
     ```
 
-- Generate SSH keys.
+- SSH keys.
+    > SSH keys will be used to access a remote machine.
+    * Check whether you already have SSH keys
+    ```bash
+    ls ~/.ssh/
+    # Check whether you see the following files.
+    id_rsa  id_rsa.pub  known_hosts
+    ```
+    * Generate SSH keys (private and public key pairs).
+    ```bash
+    ssh-keygen -t rsa # Aways press `enter`.
+    ```
+    * Print out the content of your public key
+    ```bash
+    cat ~/.ssh/*.pub
+    ```
+
 
 - Setup SSH keys on your GitHub account.
+    * Click your icon on the right top conner.
+    * Click `Settings`
+    * Click [SSH and GPG keys](https://github.com/settings/keys)
+    * Click `New SSH key`
+    * Past your public key content to the `Key` field.
+    * Give a meaningful `Title` to this key.
+
 
 - How to effectively use `Visual Studio Code`.
     * black formatting
@@ -68,13 +91,15 @@ Help participants in the following topics:
     * docstring
     * test driven development
     * further practice
+        + [Leetcode practice on Data Structures and Algoriths](https://github.com/labuladong/fucking-algorithm).
+        + [System design](https://github.com/donnemartin/system-design-primer).
 
 - How to effectively use `Jupyter Notebook`.
     * install jupyter notebook extensions.
+    * scratch pad (Ctrl + B)
+    * table of contents
     * black formatting
     * line limit of 80 chars
-    * table of contents
-    * scratch pad (Ctrl + B)
     * debug
     * profiling
 
