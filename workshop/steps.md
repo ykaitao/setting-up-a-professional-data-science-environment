@@ -44,13 +44,17 @@ Help participants in the following topics:
     ```bash
     conda create -n py38cpu python=3.8 -y
     ```
-    * Show all availlable virtual environments.
+    * Activate a virtual environment by name
     ```bash
-    conda info --envs
+    conda activate py38cpu
     ```
     * Delete a virtual environment by name.
     ```bash
     conda remove --name py38cpu --all
+    ```
+    * Show all availlable virtual environments.
+    ```bash
+    conda info --envs
     ```
 
 - Generate SSH keys.
