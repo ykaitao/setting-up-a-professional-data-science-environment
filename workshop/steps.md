@@ -86,16 +86,30 @@ Help participants in the following topics:
 
 - How to effectively use `Visual Studio Code`.
     * black formatting
+    > File -> Preferenes -> Settings -> Python -> Formatting: Provider, choose `black`.
     * line limit of 80 chars
+    > File -> Preferenes -> Settings -> (to add rulers)
+    ```bash
+    "editor.rulers": [80, 120],
+    "workbench.colorCustomizations": {"editorRuler.foreground": "#ff4081"}
+    ```
     * type hints
     * docstring
+    > File -> Preferenes -> Settings -> autoDocstring
     * test driven development
     * further practice
         + [Leetcode practice on Data Structures and Algoriths](https://github.com/labuladong/fucking-algorithm).
         + [System design](https://github.com/donnemartin/system-design-primer).
 
 - How to effectively use `Jupyter Notebook`.
-    * install jupyter notebook extensions.
+    * install [jupyter notebook extensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html).
+        ```bash
+        # pip install
+        pip install jupyter_contrib_nbextensions 
+        # Enable css files
+        jupyter contrib nbextension install --user
+
+        ```
     * scratch pad (Ctrl + B)
     * table of contents
     * black formatting
