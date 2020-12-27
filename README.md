@@ -1,5 +1,5 @@
 # Setting-up-a-professional-data-science-environment
-The repository helps Data Science beginners to easily get started. It covers the following topics:
+The repository aims to help Data Science beginners to easily get started. It so far has covered the following topics (it will be continuously updated, you are also welcome to contribute):
 
 - [Essential tools used by professional Data Scientists](#essential-tools-used-by-professional-data-scientists)
 - [Setup tools](#setup-tools)
