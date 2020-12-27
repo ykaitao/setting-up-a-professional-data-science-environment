@@ -21,10 +21,10 @@ Help participants in the following topics:
 
 # Steps
 
-- Brief self-introduction via [LinkIn](https://www.linkedin.com/in/kaitaoyang/).
+- Brief self-introduction via [LinkedIn](https://www.linkedin.com/in/kaitaoyang/).
 
 - Check how many tools that participants already have.
-> Visual Studio Code, Anaconda, Jupyter Notebook, Virtual Environment, Git, GitHub
+    > Visual Studio Code, Anaconda, Jupyter Notebook, Virtual Environment, Git, GitHub
 - Download and install tools:
     > how to check whether your latop is 32-bit or 64-bit? 
 
@@ -39,7 +39,19 @@ Help participants in the following topics:
     * You do not need to install `Jupyter Notebook` and `Virtual Environment`, they will come automatically with Anaconda.
     * You only need to register a [GitHub account](https://github.com/) (you do not need to install GitHub desktop).
 
-- Create an virtual environment.
+- [Manage virtual environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+    * Create a virtual environment named `py38cpu`, with specified Python version.
+    ```bash
+    conda create -n py38cpu python=3.8 -y
+    ```
+    * Show all availlable virtual environments.
+    ```bash
+    conda info --envs
+    ```
+    * Delete a virtual environment by name.
+    ```bash
+    conda remove --name py38cpu --all
+    ```
 
 - Generate SSH keys.
 
