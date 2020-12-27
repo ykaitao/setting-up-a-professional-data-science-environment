@@ -56,12 +56,19 @@ Help participants in the following topics:
 - How to effectively use `Jupyter Notebook`.
     * install jupyter notebook extensions.
     * black formatting
+    * line limit of 80 chars
     * table of contents
     * scratch pad (Ctrl + B)
     * debug
     * profiling
 
-- How to use Git effectively.
+- How to use `Git` effectively.
+    * Go through [all commands](https://github.com/ykaitao/setting-up-a-professional-data-science-environment/blob/master/how-to-use/git.md).
+    * Practice.
+
+- Call on actions:
+    * [Voluntary payment](https://docs.google.com/forms/d/e/1FAIpQLScRnLPYE7t_x9smBolZ9RWr6Sisu7C2ws9RCPDfALJ7VPTA2g/viewform?edit2=2_ABaOnucX593H6a9AdGJ1QBXMtIS3xIHsfOvYegn6LaArOQrTXjU0uVeX0YsrmlulCJv509eX03cSiRks).
+    * Recommand this workshop to your friends (I will organize this workshop frequently in the future).
 
 
 
