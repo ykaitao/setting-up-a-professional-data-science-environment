@@ -16,17 +16,17 @@ git push # Push the changes from local to remote.
 git push --set-upstream origin branch # If this is the first time that this branch being pushed.
 
 
-
 git branch # Print all the local branches, your current branch starts with *.
 
 git branch -vva # # Print all the local and remote branches.
+
+git branch -f <one_branch> <another_branch> # Replace one_branch by another_branch by force.
 
 git branch -D <branch_to_be_deleted> # Delete a branch from local.
 
 git push origin :<branch_to_be_deleted> # Delete a branch from remote.
 
 git push origin --delete <branch_to_be_deleted> # Delete a branch from remote.
-
 
 
 git checkout <another_branch> # Switch to another branch.
@@ -48,13 +48,9 @@ git checkout <file> # Discard un-added local changes of a file.
 git restore <file> # Discard un-added local changes of a file.
 
 
-
 git reset --hard origin/master # Made the current branch the same status as remote master branch.
 
 git reset --hard commit-id # Made the current branch the same status as the specified commit-id.
-
-git reset --hard HEAD # Made the current branch the same status as the last commit of this branch .
-
 
 
 git diff origin/master # Display the changes of the current branch compared the remote/master (Ctrl + Z to exit).
@@ -64,15 +60,11 @@ git diff origin/master --name-only # Display the changes of the current branch c
 git status # Display the status of the current branch.
 
 
-
 git merge <another_branch> # Merge another branch into the current branch.
 
 git merge master # Merge local master branch into the current branch.
 
 git rebase master # Get updated from local master branch.
-
-git rebase origin/master #  Get updated from remote master branch.
-
 
 
 git stash # Temporarily save the local changes, which you have not added and committed.
@@ -86,7 +78,6 @@ git stash pop # Restore the latest local changes that you saved.
 git stash apply <stash index> # Restore the local changes that you saved, according to the stash index.
 
 
-
 git move <file_old> <file_new> # Rename a file both locally and remotely.
 
 git rm <file> # Delete a file both locally and remotely.
@@ -94,7 +85,6 @@ git rm <file> # Delete a file both locally and remotely.
 git rm --cached <file> # Delete a file remotely (keep the local one).
 
 git rm --cached -r <folder> # Delete a folder remotely (keep the local one).
-
 
 
 git remote -v # Check how many remote branches
