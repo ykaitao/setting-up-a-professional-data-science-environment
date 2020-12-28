@@ -1,3 +1,5 @@
+> A very interesting [website](https://learngitbranching.js.org/) to practice git commands, strongly recommended!
+
 # Frequently-used commands
 
 ```bash
