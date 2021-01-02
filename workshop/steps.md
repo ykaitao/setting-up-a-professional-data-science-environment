@@ -120,21 +120,21 @@ Help participants in the following topics:
 
 - How to effectively use `Jupyter Notebook`.
     * activate your virtual environment
-    ```bash
-    conda activate py38cpu
-    ```
+      ```bash
+      conda activate py38cpu
+      ```
     * install `jupyter`
-    ````bash
-    pip install jupyter
-    ```
+      ```bash
+      pip install jupyter
+      ```
     * install [jupyter notebook extensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html).
-        ```bash
-        # pip install
-        pip install jupyter_contrib_nbextensions 
-        # Enable css files
-        jupyter contrib nbextension install --user
+      ```bash
+      # pip install
+      pip install jupyter_contrib_nbextensions 
+      # Enable css files
+      jupyter contrib nbextension install --user
 
-        ```
+      ```
     * scratch pad (Ctrl + B)
     * table of contents
     * black formatting
