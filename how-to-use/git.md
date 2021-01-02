@@ -53,9 +53,9 @@ git reset --hard origin/master # Made the current branch the same status as remo
 git reset --hard commit-id # Made the current branch the same status as the specified commit-id.
 
 
-git diff origin/master # Display the changes of the current branch compared the remote/master (Ctrl + Z to exit).
+git diff origin/master # Display the changes of the current branch compared with the remote/master (Ctrl + Z to exit).
 
-git diff origin/master --name-only # Display the changes of the current branch compared the remote/master (only show the filenames).
+git diff origin/master --name-only # Display the changes of the current branch compared with the remote/master (only show the filenames).
 
 git status # Display the status of the current branch.
 
