@@ -33,7 +33,7 @@ The repository aims to help Data Science beginners to easily get started. It so 
 
 [Git](https://git-scm.com/) can be setup by following this [document](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-[GitHub](https://github.com/) can be setup by following this [document](TO-DO).
+[GitHub](https://github.com/), you only need to register for a GitHub account.
 
 ## Use tools effectively
 
