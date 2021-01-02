@@ -47,9 +47,15 @@ Help participants in the following topics:
       + shortcut: ctrl+shift+`
    * Change the vs-code terminal from `powershell` into `bash` in two ways:
       + click `drop-down menu` of an openned terminal -> click `Select Default Shell` -> choose `Git Bash shell`, or
-      + File -> Preferenes -> Settings -> type in `shell` -> edit settings.json, adding the `"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"`
+      + File -> Preferenes -> Settings -> type in `shell` -> edit settings.json, adding the `"terminal.integrated.shell.windows": "your_own_path/Git/bin/bash.exe"`. Windows users should make sure using `/` (not `\`) for the path.
    
 - [Manage virtual environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+    * Enable `conda`
+    ```bash
+    source your_own_path/Anaconda3/etc/profile.d/conda.sh # Windows users should make sure using `/` (not `\`).
+    ```
+    You can run `conda --version` to test whether your `conda` is enabled.
+    
     * Create a virtual environment named `py38cpu`, with specified Python version.
     ```bash
     conda create -n py38cpu python=3.8 -y
