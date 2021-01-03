@@ -51,13 +51,13 @@ Help participants in the following topics:
 
 - SSH keys.
     > SSH keys will be used to access a remote machine.
-    * Check whether you already have SSH keys
+    * Check whether you already have SSH keys, if yes, then skip the next step.
     ```bash
     ls ~/.ssh/
     # Check whether you see the following two files.
     id_rsa  id_rsa.pub
     ```
-    * Generate SSH keys (private and public key pairs).
+    * Generate SSH keys (private and public key pairs) if you do not have them yet.
     ```bash
     ssh-keygen -t rsa # Aways press `enter`.
     ```
@@ -110,7 +110,7 @@ Help participants in the following topics:
 
 - How to effectively use `vs-code`.
     * black formatting
-    > File -> Preferenes -> Settings -> Python -> Formatting: Provider, choose `black`.
+    > File -> Preferenes -> Settings -> search for `format` -> Python -> Formatting: Provider, choose `black`.
     * line limit of 80 chars
     > File -> Preferenes -> Settings -> type in `ruler` -> edit `settings.json`, adding the following two lines:
     ```bash
