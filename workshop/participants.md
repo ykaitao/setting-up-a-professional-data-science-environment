@@ -14,7 +14,7 @@ This page keeps records of all previous participants.
 |M.|Li|
 |P.|Sun|
 |J.|ZHANG|
->>>>>>> f433c4f (jz_comments)
+
 # Example
 |First name|Last name|
 |----------|---------|
