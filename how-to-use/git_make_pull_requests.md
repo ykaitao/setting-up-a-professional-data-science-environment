@@ -2,7 +2,9 @@
 
 # Terms explaination:
 > local, your local computer.
+
 > origin, your own remote space (your own GitHub space in this case)
+
 > upstream, other's remote space where you forked the repository (other's GitHub space in this case)
 
 # Get `SSH link` of a repository
