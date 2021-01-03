@@ -10,6 +10,7 @@ This page keeps records of all previous participants.
 |W.|Wang|
 |J.|Liao|
 |X.|Wei|
+|L.|Wang|
 
 # Example
 |First name|Last name|
