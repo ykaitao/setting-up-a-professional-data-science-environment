@@ -41,6 +41,7 @@ Help participants in the following topics:
 
 - Enable vs-code terminal for executing Linux commands (for Windows users only)
 > Linux or Mac users can skip this step, because your vs-code terminal can run Linux commands by default. 
+
    * Open vs-code
    * Open vs-code terminal in two ways:
       + click `Terminal` -> `New Terminal`, or
