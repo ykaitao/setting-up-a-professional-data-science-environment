@@ -8,7 +8,6 @@ This page keeps records of all previous participants.
 |----------|---------|
 |X.|Shu|
 |W.|Wang|
-|J.|ZHANG|
 
 # Example
 |First name|Last name|
