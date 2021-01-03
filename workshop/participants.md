@@ -12,8 +12,10 @@ This page keeps records of all previous participants.
 |X.|Wei|
 |L.|Wang|
 |M.|Li|
+|P.|Sun|
 
 # Example
 |First name|Last name|
 |----------|---------|
 |K.|Yang|
+
