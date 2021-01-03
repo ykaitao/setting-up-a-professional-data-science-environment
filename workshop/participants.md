@@ -7,7 +7,11 @@ This page keeps records of all previous participants.
 |First name|Last name|
 |----------|---------|
 |X.|Shu|
+<<<<<<< HEAD
 |W.|Wang|
+=======
+|X.|Wei|
+>>>>>>> da0248d... add participants
 
 # Example
 |First name|Last name|
