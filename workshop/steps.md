@@ -48,7 +48,35 @@ Help participants in the following topics:
    * Change the vs-code terminal from `powershell` into `bash` in two ways:
       + click `drop-down menu` of an openned terminal -> click `Select Default Shell` -> choose `Git Bash shell`, or
       + File -> Preferenes -> Settings -> type in `shell` -> edit settings.json, adding the `"terminal.integrated.shell.windows": "/your_own_path/Git/bin/bash.exe"`. Windows users should make sure using `/` (not `\`) for the path.
-   
+
+- SSH keys.
+    > SSH keys will be used to access a remote machine.
+    * Check whether you already have SSH keys
+    ```bash
+    ls ~/.ssh/
+    # Check whether you see the following two files.
+    id_rsa  id_rsa.pub
+    ```
+    * Generate SSH keys (private and public key pairs).
+    ```bash
+    ssh-keygen -t rsa # Aways press `enter`.
+    ```
+    * Print out the content of your public key
+    ```bash
+    cat ~/.ssh/*.pub
+    ```
+
+
+- Setup SSH keys on your GitHub account.
+    * Click your icon on the right top conner.
+    * Click `Settings`
+    * Click [SSH and GPG keys](https://github.com/settings/keys)
+    * Click `New SSH key`
+    * Past your public key content to the `Key` field.
+    * Give a meaningful `Title` to this key.
+
+- [Make the first pull request](https://github.com/ykaitao/setting-up-a-professional-data-science-environment/blob/master/how-to-use/git_make_pull_requests.md)
+
 - [Manage virtual environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
     * Enable `conda` (you only need to do this once)
       + Open file `~/.bashrc`
@@ -79,33 +107,6 @@ Help participants in the following topics:
     ```bash
     conda info --envs
     ```
-
-- SSH keys.
-    > SSH keys will be used to access a remote machine.
-    * Check whether you already have SSH keys
-    ```bash
-    ls ~/.ssh/
-    # Check whether you see the following two files.
-    id_rsa  id_rsa.pub
-    ```
-    * Generate SSH keys (private and public key pairs).
-    ```bash
-    ssh-keygen -t rsa # Aways press `enter`.
-    ```
-    * Print out the content of your public key
-    ```bash
-    cat ~/.ssh/*.pub
-    ```
-
-
-- Setup SSH keys on your GitHub account.
-    * Click your icon on the right top conner.
-    * Click `Settings`
-    * Click [SSH and GPG keys](https://github.com/settings/keys)
-    * Click `New SSH key`
-    * Past your public key content to the `Key` field.
-    * Give a meaningful `Title` to this key.
-
 
 - How to effectively use `vs-code`.
     * black formatting
