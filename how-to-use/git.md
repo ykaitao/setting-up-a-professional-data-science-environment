@@ -28,6 +28,8 @@ git push origin :<branch_to_be_deleted> # Delete a branch from remote.
 
 git push origin --delete <branch_to_be_deleted> # Delete a branch from remote.
 
+git push -f origin master # Push local master to remote master by forece.
+
 
 git checkout <another_branch> # Switch to another branch.
 
