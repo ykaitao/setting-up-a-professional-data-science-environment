@@ -76,7 +76,7 @@ git branch -f bugFix C0 # 强制移动bugFix分支到C0
 |----------|---------|
 |<img src="././figures/local-jichu-8.png" width = "300" height = "300" alt="图片名称" align=center />|<img src="././figures/local-jichu-8-0.png" width = "300" height = "300" alt="图片名称" align=center />|
 ```bash 
-git reset HEADE~1 # 在本地当前分支撤销一个提交，但是对于大家一起修改的远程分支是无效的。
+git reset HEAD~1 # 在本地当前分支撤销一个提交，但是对于大家一起修改的远程分支是无效的。
 git checkout pushed # 跳转到pushed分支。
 git revert HEAD~1 # 在远程分支撤销一次提交。撤销更改并分享给别人。
 ```
