@@ -99,6 +99,14 @@ git remote remove upstream # Remove upstream
 
 ```
 
+# Change git default branch from `main` to `master`
+```bash
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
+```
+
 # Set up a Git repository
 ## Git global setup
 ```bash
