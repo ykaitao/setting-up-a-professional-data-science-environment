@@ -59,10 +59,11 @@ git diff origin/master # Display the changes of the current branch compared with
 
 git diff origin/master --name-only # Display the changes of the current branch compared with the remote/master (only show the filenames).
 
+git diff origin/master --stat --cached # Display which files are changed compared with remote master
+
 git status # Display the status of the current branch.
 
-git show -1 # show file changes of the last commit. `git show -2` for last second. 
-git diff --stat --cached origin/master # show which files are changed compared with remote master
+git show -1 # Show file changes of the last commit. `git show -2` for last second. 
 
 
 git merge <another_branch> # Merge another branch into the current branch.
